@@ -54,7 +54,7 @@
             </p>
         </div>
         <h2 style="text-align: center">
-            <asp:Label ID="OutputLabel" runat="server" Text="You have selected : - Pizza"></asp:Label>
+            <asp:Label ID="OutputLabel" runat="server" Text="You have choosen : - Pizza"></asp:Label>
         </h2>
         <asp:Image ID="OutputImage" runat="server" ImageAlign="Middle" ImageUrl="~/images/pizza.jpg" Style="margin-left: 5px; margin-top: 22px" Width="600px" />
         <h2 class="auto-style3">Pick your favourite programming language &lt;/&gt;</h2>
