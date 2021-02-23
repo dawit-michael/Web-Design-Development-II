@@ -75,6 +75,13 @@
     <Content Include="images\wallpaperflare.com_wallpaper %282%29.jpg" />
     <Content Include="index.aspx" />
     <Content Include="Employee.aspx" />
+    <Content Include="masterpage\page1.aspx" />
+    <Content Include="masterpage\page2.aspx" />
+    <Content Include="PAGE 1.aspx" />
+    <Content Include="PAGE 2.aspx" />
+    <Content Include="Stylesheet.aspx" />
+    <Content Include="stylesheet\my-stylesheet.css" />
+    <Content Include="Validation.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -95,6 +102,41 @@
     <Compile Include="index.aspx.designer.cs">
       <DependentUpon>index.aspx</DependentUpon>
     </Compile>
+    <Compile Include="masterpage\masterpage.Master.cs">
+      <DependentUpon>masterpage.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="masterpage\masterpage.Master.designer.cs">
+      <DependentUpon>masterpage.Master</DependentUpon>
+    </Compile>
+    <Compile Include="masterpage\page1.aspx.cs">
+      <DependentUpon>page1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="masterpage\page1.aspx.designer.cs">
+      <DependentUpon>page1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="masterpage\page2.aspx.cs">
+      <DependentUpon>page2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="masterpage\page2.aspx.designer.cs">
+      <DependentUpon>page2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PAGE 1.aspx.cs">
+      <DependentUpon>PAGE 1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PAGE 1.aspx.designer.cs">
+      <DependentUpon>PAGE 1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PAGE 2.aspx.cs">
+      <DependentUpon>PAGE 2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PAGE 2.aspx.designer.cs">
+      <DependentUpon>PAGE 2.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Employee.aspx.cs">
       <DependentUpon>Employee.aspx</DependentUpon>
@@ -103,8 +145,23 @@
     <Compile Include="Employee.aspx.designer.cs">
       <DependentUpon>Employee.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Stylesheet.aspx.cs">
+      <DependentUpon>Stylesheet.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Stylesheet.aspx.designer.cs">
+      <DependentUpon>Stylesheet.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Validation.aspx.cs">
+      <DependentUpon>Validation.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Validation.aspx.designer.cs">
+      <DependentUpon>Validation.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="masterpage\masterpage.Master" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>

@@ -47,8 +47,8 @@
             <h2 class="auto-style4">Pick your favourite food :)</h2>
             <p>
                 <asp:RadioButtonList ID="FilterList" runat="server" OnSelectedIndexChanged="FilterList_SelectedIndexChanged" RepeatColumns="3" Width="300px" AutoPostBack="True" CellPadding="10" CellSpacing="20" CssClass="auto-style1" RepeatDirection="Horizontal" RepeatLayout="Flow">
-                    <asp:ListItem Selected="True">Pizza</asp:ListItem>
-                    <asp:ListItem>Burger</asp:ListItem>
+                    <asp:ListItem>Pizza</asp:ListItem>
+                    <asp:ListItem Selected="True">Burger</asp:ListItem>
                     <asp:ListItem>Peanut Butter</asp:ListItem>
                 </asp:RadioButtonList>
             </p>
@@ -56,7 +56,7 @@
         <h2 style="text-align: center">
             <asp:Label ID="OutputLabel" runat="server" Text="You have choosen : - Pizza"></asp:Label>
         </h2>
-        <asp:Image ID="OutputImage" runat="server" ImageAlign="Middle" ImageUrl="~/images/pizza.jpg" Style="margin-left: 5px; margin-top: 22px" Width="600px" />
+        <asp:Image ID="OutputImage" runat="server" ImageAlign="Middle" ImageUrl="~/images/burger.jpg" Style="margin-left: 5px; margin-top: 22px" Width="600px" />
         <h2 class="auto-style3">Pick your favourite programming language &lt;/&gt;</h2>
         <p>
             <asp:CheckBoxList ID="LanguageList" runat="server" AutoPostBack="True" OnSelectedIndexChanged="CheckBoxList1_SelectedIndexChanged" RepeatDirection="Horizontal" RepeatLayout="Flow" CellPadding="10" CellSpacing="10" CssClass="newStyle2">
